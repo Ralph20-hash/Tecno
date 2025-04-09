@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Right Aligned Navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="brand">CARTON</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">All cars</button>
+        <div class="dropdown-content">
+          <a href="#sedan">Sedan</a>
+          <a href="#suv">SUV</a>
+          <a href="#pickup">Pickup</a>
+          <a href="#electric">Electric</a>
+        </div>
+      </div>
+
+      <a href="contact.html">Contact</a>
+      <a href="map.html">Maps</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to CARTON</h1>
+    <p>This is the home section content.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>This section describes our company.</p>
+  </section>
+
+  <section id="suv">
+    <h2>List of Cars we offer</h2>
+      <!-- gallery section start -->
+      <div class="gallery_section layout_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="gallery_taital">Our Best Offers</h1>
+            </div>
+          </div>
+          <div class="gallery_section_2">
+            <div class="row">
+              <!-- Offer 1 -->
+              <div class="col-md-4">
+                <div class="gallery_box">
+                  <div class="gallery_img"><img src="images/img-1.jpg" alt="Toyota Car"></div>
+                  <h3 class="types_text">Toyota Car</h3>
+                  <p class="looking_text">Start per day $4500</p>
+                  <div class="read_bt"><a href="#">Book Now</a></div>
+                </div>
+              </div>
+      
+              <!-- Offer 2 -->
+              <div class="col-md-4">
+                <div class="gallery_box">
+                  <div class="gallery_img"><img src="images/img-1.jpg" alt="Honda SUV"></div>
+                  <h3 class="types_text">Honda SUV</h3>
+                  <p class="looking_text">Start per day $5000</p>
+                  <div class="read_bt"><a href="#">Book Now</a></div>
+                </div>
+              </div>
+      
+              <!-- Offer 3 -->
+              <div class="col-md-4">
+                <div class="gallery_box">
+                  <div class="gallery_img"><img src="images/img-1.jpg" alt="Electric Sedan"></div>
+                  <h3 class="types_text">Electric Sedan</h3>
+                  <p class="looking_text">Start per day $6000</p>
+                  <div class="read_bt"><a href="#">Book Now</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   <!-- cars -->
+      
+    <p>List of SUVs...</p>
+  </section>
+
+  <section id="pickup">
+    <h2>Pickup Trucks</h2>
+    <p>List of pickups...</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@carton.com</p>
+  </section>
+
+</body>
+</html>
